@@ -1,4 +1,5 @@
 # leekd97.github.io
+<img src="./images/SKKU_Lib.jpg" width="300px" height="199px" title="SKKU_LOGO"/>
 
 ---
 
