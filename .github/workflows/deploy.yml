@@ -1,4 +1,4 @@
-name: Run Python script on push, pull request
+name: RunScript
 
 on: [push, pull_request]
 
