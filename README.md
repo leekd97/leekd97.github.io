@@ -12,16 +12,16 @@ My areas of interest are **AI** and **Human-Computer Interaction**.
 # Skills
 
 * **Programming Languages**
-python, C, JavaScript, HTML, CSS
++ Python, C, JavaScript, HTML, CSS
 
 * **Development Experience**
-Front-End, Machine Learning, Web Programming, Mobile App Programming, Data Mining
++ Front-End, Machine Learning, Web Programming, Mobile App Programming, Data Mining
 
 * **Drawing & Typesetting**
-Figma, Balsamiq, LaTeX
++ Figma, Balsamiq, LaTeX
 
 * **ML/DL Framework**
-Tensorflow, PyTorch, YOLO
++ Tensorflow, PyTorch, YOLO
 
 ---
 
