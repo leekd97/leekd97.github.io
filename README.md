@@ -1,6 +1,5 @@
 <img src="./images/SKKU_Lib.jpg" width="300px" height="199px" title="SKKU_LOGO"/>
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+![Workflow status](https://github.com/leekd97/leekd97.github.io/actions/workflows/deploy.yml/badge.svg)
 ---
 
 # Introduction
