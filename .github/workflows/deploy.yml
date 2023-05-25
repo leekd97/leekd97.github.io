@@ -1,4 +1,4 @@
-name: RunScript
+name: Update README
 
 on: [push, pull_request]
 
@@ -14,6 +14,19 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x' 
-
+        
     - name: Run Python script
-      run: python runscript.py
+      run: python your_script.py > output.txt
+
+    - name: Update README
+      run: |
+        OUTPUT="$(cat output.txt)"
+        sed -i "/<!--START_SECTION:python-->/a\ $OUTPUT " README.md
+
+    - name: Commitandpush
+      run: |
+        git diff
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Action"
+        git commit -am "Updated README" || exit 0 
+        git push
