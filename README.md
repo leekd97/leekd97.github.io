@@ -1,5 +1,4 @@
 <img src="./images/SKKU_Lib.jpg" width="300px" height="199px" title="SKKU_LOGO"/>
-![Workflow status](https://github.com/leekd97/leekd97.github.io/.github/workflows/deploy.yml/badge.svg)
 
 ---
 
