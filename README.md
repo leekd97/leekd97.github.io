@@ -39,7 +39,9 @@ Sungkyunkwan University(SKKU) Mar.2017 - Feb.2024
 ---
 
 # Achievements and Certifications
-
+* Data Analyst Intern, _Stratio.INC_
+* Software Engineering Intern, _BooKook Securities_
+* Research Intern, _Crinity_
 * 2022 Samsung SDS Winter Algorithm Bootcamp
 * Senior Project - _A smoking behavior recognition model for smoking-free zones based on deep learning_ [pdf](https://drive.google.com/file/d/12XLLvweaYAVhQ_KMN3CRb0QZc2gGGETV/view)
 * IBT TOEFL - 90(2018)
