@@ -2,8 +2,6 @@
 
 <!--START_SECTION:python-->
  Welcome 
- Welcome 
- Welcome 
 <!--END_SECTION:python-->
 
 ---
