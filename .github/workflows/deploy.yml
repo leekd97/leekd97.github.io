@@ -16,4 +16,4 @@ jobs:
         python-version: '3.x' 
 
     - name: Run Python script
-      run: python push_script.py
+      run: python runscript.py
