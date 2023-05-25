@@ -1,34 +1,34 @@
-name: Update README
+name: Update README #set the name of workflow
 
-on: [push, pull_request]
+on: [push, pull_request] #execute when push, pull_request occurs
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #execute on latest ubuntu version
 
-    steps:
+    steps: #check the repo with checkout@v2 action 
     - name: Checkout repository content
       uses: actions/checkout@v2 
       
-    - name: Clear README Python Section
+    - name: Clear README Python Section #remove OUTPUT text in README.md with using sed command
       run: |
         sed -i "/<!--START_SECTION:python-->/,/<!--END_SECTION:python-->/c\<!--START_SECTION:python-->\n<!--END_SECTION:python-->" README.md
       shell: bash  
 
-    - name: Set up Python environment
+    - name: Set up Python environment #setting python environment
       uses: actions/setup-python@v2
       with:
         python-version: '3.x' 
         
-    - name: Run Python script
+    - name: Run Python script #make output text file with executing python file
       run: python myscript.py > output.txt
 
-    - name: Update README
+    - name: Update README #put the text of OUTPUT in README.md 
       run: |
         OUTPUT="$(cat output.txt)"
         sed -i "/<!--START_SECTION:python-->/a\ $OUTPUT " README.md
 
-    - name: Commitandpush
+    - name: Commitandpush #If differentiation exists, do commit and push
       run: |
         git diff
         git config --global user.email "leekd97@github.com"
