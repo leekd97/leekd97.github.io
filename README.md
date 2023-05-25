@@ -50,4 +50,6 @@ Sungkyunkwan University(SKKU) Mar.2017 - Feb.2024
 ---
 
 # Contact
-Email : leekd97@g.skku.edu
+Email : leekd97@g.skku.edu\
+Github link : https://github.com/leekd97?tab=repositories
+
