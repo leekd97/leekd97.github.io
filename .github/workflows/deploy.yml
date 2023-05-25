@@ -9,6 +9,11 @@ jobs:
     steps:
     - name: Checkout repository content
       uses: actions/checkout@v2 
+      
+    - name: Clear README Python Section
+      run: |
+        sed -i "/<!--START_SECTION:python-->/,/<!--END_SECTION:python-->/c\<!--START_SECTION:python-->\n<!--END_SECTION:python-->" README.md
+      shell: bash  
 
     - name: Set up Python environment
       uses: actions/setup-python@v2
